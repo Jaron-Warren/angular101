@@ -8,16 +8,13 @@ import { ButtonComponent } from './components/button/button.component';
 import { TasksComponent } from './components/tasks/tasks.component';
 import { TaskItemComponent } from './components/task-item/task-item.component';
 import { HttpClientModule } from '@angular/common/http';
-import { TestComponent } from './components/test/test.component'
-
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     ButtonComponent,
     TasksComponent,
-    TaskItemComponent,
-    TestComponent
+    TaskItemComponent
   ],
   imports: [
     BrowserModule,
